@@ -1,0 +1,259 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: white;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.4rem;
+  color: black; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+/*blocks*/
+.page {
+  overflow: hidden;
+  width: 100%;
+  height: auto; }
+
+.kurs__size {
+  margin-bottom: 3%;
+  padding: 2.5%;
+  padding-bottom: 1%;
+  border-radius: .5%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("https://pcvector.net/uploads/posts/2018-02/1517572511_bg-svg-gradient-min.png") bottom no-repeat;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); }
+
+.kurs__post {
+  margin-bottom: 0%;
+  width: 70%;
+  height: 20%;
+  padding-bottom: 10%; }
+
+.post__header {
+  margin: -2.5% -2.5% -1.5%; }
+
+.post__head {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 5%;
+  color: white;
+  font-size: 160%;
+  font-weight: 100%; }
+
+.post1 {
+  text-align: justify;
+  position: relative;
+  width: 140%;
+  color: #d2d2d2;
+  font-size: 110%; }
+
+.post__data {
+  position: relative;
+  color: #828282;
+  width: auto;
+  margin-top: 0%; }
+
+.form {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.input__form input {
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 1px solid #FFB6C1;
+  box-sizing: border-box; }
+
+.form h1 {
+  margin: 30px 100px;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.input__form {
+  margin: 15px 40px;
+  text-align: center; }
+
+.input__form input[type="text"]:focus, .input__form input[type="password"]:focus {
+  border: 1px solid #FFB6C1; }
+
+.input__form input[type="submit"] {
+  margin-top: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  background-color: darkgrey;
+  transition: .3s; }
+
+.input__form input[type="submit"]:hover {
+  background: #FFB6C1; }
+
+.form a {
+  display: block;
+  padding: 0 0 30px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: .3s; }
+
+.reg1 {
+  text-transform: uppercase;
+  width: 14.5rem;
+  margin-left: 90%;
+  padding-left: 2rem;
+  font-size: 20px;
+  color: #000;
+  padding-top: .5rem;
+  padding-bottom: .6rem;
+  margin-top: 2rem;
+  border: 1px solid grey;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  border-radius: 6%; }
+
+.reg1:hover {
+  color: darkorange;
+  border: 1px solid darkorange;
+  transition: .3s linear; }
+
+.header {
+  width: 100%;
+  height: 8rem;
+  background-color: #FFF;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1100; }
+
+.header__logo {
+  position: absolute;
+  font-size: 28px;
+  text-transform: auto;
+  padding-left: 2.6rem;
+  width: 8rem;
+  padding-top: .5rem; }
+
+.title__logo {
+  position: absolute;
+  margin-left: 12rem;
+  font-size: 18px;
+  width: 35rem;
+  padding-top: 2.5rem;
+  text-transform: lowercase;
+  color: dimgrey; }
+
+.reg {
+  text-transform: uppercase;
+  width: 11rem;
+  margin-left: 92%;
+  padding-left: 2rem;
+  font-size: 20px;
+  color: #000;
+  padding-top: .5rem;
+  padding-bottom: .6rem;
+  margin-top: 2rem;
+  border: 1px solid grey;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  border-radius: 6%; }
+
+.reg:hover {
+  color: darkorange;
+  border: 1px solid darkorange;
+  transition: .3s linear; }
+
+.header__link {
+  text-decoration: none; }
+
+body {
+  margin-left: 150px;
+  height: auto;
+  padding-left: 0px;
+  background: url("https://www.eduneo.ru/wp-content/uploads/2017/08/%D0%97%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%D0%A1%D0%94%D0%9E.jpg") right top no-repeat;
+  background-size: 1780px; }
+
+.main-kurs {
+  position: relative;
+  width: 100%;
+  margin-left: 1px;
+  height: auto;
+  background: url("https://1.bp.blogspot.com/-QKTkNFcYtQw/XMsevmG4yxI/AAAAAAAAoDY/TT6qr7uFY0MtIgCzmadO6PsOjetSP529wCLcBGAs/s1600/Abstract%2BBackground%2BVector%2B5.jpg") center no-repeat;
+  background-size: cover; }
+
+.main2 {
+  position: relative;
+  width: 120%;
+  margin-left: -13%;
+  height: 99vh;
+  background: url("../images/reg.png") center no-repeat;
+  background-size: cover; }
+
+.menu__item {
+  padding-top: 12rem;
+  padding-left: 15rem;
+  width: 25rem;
+  height: 14rem; }
+
+.menu__title {
+  position: absolute;
+  max-width: 11rem;
+  left: 5rem;
+  padding-top: 1.6rem;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000; }
+
+.menu__icon {
+  padding-top: 4rem;
+  max-width: 53px; }
+
+.menu__link {
+  width: 100%;
+  height: 10rem; }
+
+.sidebar {
+  position: fixed;
+  width: -60px;
+  height: 100%;
+  left: -150px;
+  z-index: 1000;
+  background: url("https://www.publicdomainpictures.net/pictures/130000/velka/turquoise-top-gradient-background.jpg") center no-repeat;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  animation-name: none;
+  animation: sidebar-animation .6s alternate 2 0s forwards;
+  animation-play-state: paused; }
+
+.sidebar:hover {
+  animation-play-state: running;
+  animation-iteration-count: 1; }
+
+@keyframes sidebar-animation {
+  0% {
+    left: -150px; }
+  /*50%{
+        left: 0;
+    }*/
+  100% {
+    left: 0px; } }
+
+.container {
+  width: 50%;
+  height: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10%;
+  padding-bottom: 10%; }
